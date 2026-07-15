@@ -1,0 +1,13 @@
+{
+  "converged_to_psne": true,
+  "updates_recorded": 836,
+  "strategy_changes": 80,
+  "equilibrium_k": 74,
+  "equilibrium_cost": 208.17834732456367,
+  "assumed_capacity_k": 80,
+  "memory_violation": false,
+  "diagnostic_global_optimum_k": 57,
+  "diagnostic_global_optimum_cost": 178.57654181939267,
+  "equilibrium_is_global_optimum": false,
+  "claim": "Alibaba-trace-driven best response converged to a PSNE; no global-optimality or deployment claim."
+}

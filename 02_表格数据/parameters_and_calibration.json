@@ -1,0 +1,28 @@
+{
+  "assumptions": {
+    "seed": 20260713,
+    "n": 100,
+    "peak_hour": "2024-12-06 00:00:00",
+    "t_max": 5000,
+    "no_change_stop": 100,
+    "local_slowdown": 1.8,
+    "local_energy_addition": 0.4,
+    "tx_base_cost": 0.15,
+    "prompt_tx_weight": 0.15,
+    "capacity_fraction": 0.8,
+    "memory_alpha": 1.2,
+    "memory_beta": 8.0,
+    "random_trials": 500,
+    "sweep_trials": 100
+  },
+  "trace_calibration": {
+    "queue_median_ms": 203.0,
+    "queue_p95_ms": 451.0,
+    "inference_median_ms": 35049.5,
+    "gpu_memory_median_bytes": 24823201792.0,
+    "gpu_memory_p95_bytes": 33569112064.0,
+    "gpu_util_median_percent": 0.0,
+    "gpu_util_p95_percent": 31.733333333333334,
+    "peak_window_available_success_requests": 435
+  }
+}

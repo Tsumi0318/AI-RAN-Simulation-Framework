@@ -1,0 +1,2 @@
+coordinator,coordination_calls,strategy_changes,llm_model,llm_token_count,llm_inference_latency_ms
+numeric_trace_driven_proxy,836,80,not_used,not_measured,not_measured
