@@ -181,10 +181,7 @@ llm_inference_latency_ms = not_measured
 │   └── 阿里GenAI2026_官方数据说明.md
 ├── 02_表格数据/
 ├── 03_结果图/
-│   ├── PNG/
 │   ├── PDF/
-│   ├── SVG/
-│   └── TIFF/
 ├── Mark2阿里_框架数据代码结果对应报告.pdf
 ├── requirements.txt
 └── README.md
