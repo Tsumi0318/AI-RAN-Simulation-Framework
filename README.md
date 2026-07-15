@@ -132,9 +132,8 @@ python "01_源码与说明/投稿级绘图_nature_figure_export.py"
 
 ### 结果图
 
-`03_结果图/` 按格式保存四张结果图：
+`03_结果图/` ：
 
-- `PDF/`：矢量投稿图；
 
 四张图分别为：
 
@@ -178,7 +177,6 @@ llm_inference_latency_ms = not_measured
 │   └── 阿里GenAI2026_官方数据说明.md
 ├── 02_表格数据/
 ├── 03_结果图/
-│   ├── PDF/
 ├── Mark2阿里_框架数据代码结果对应报告.pdf
 ├── requirements.txt
 └── README.md
