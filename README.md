@@ -19,7 +19,7 @@
 | 诊断全局最优总代价 | 178.5765 |
 | PSNE 是否为全局最优 | 否 |
 
-![Convergence](03_结果图/PNG/convergence.png)
+
 
 ## 实验模型
 
