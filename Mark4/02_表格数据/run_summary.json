@@ -1,0 +1,47 @@
+{
+  "status": "completed",
+  "experiment": "PDF Algorithm 1 plus advisor-required semantic data-driven coordination",
+  "n_main": 100,
+  "updates": 543,
+  "strategy_changes": 56,
+  "converged_to_verified_psne": true,
+  "equilibrium": {
+    "k_offload": 71,
+    "offload_fraction": 0.71,
+    "potential": 230.89654880691745,
+    "system_total_cost_normalized": 249.19106803394166,
+    "mean_energy_mj_per_task_simulated": 160380.16344921876,
+    "queue_delay_ms_per_offloaded_task": 214.02512523750255,
+    "mean_queue_delay_ms_per_task": 151.9578389186268,
+    "vram_load_gb_simulated": 14.58,
+    "vram_load_fraction": 0.91125,
+    "memory_violation_simulated": 0,
+    "is_psne": 1
+  },
+  "queue_fit_r2": -0.011633134983892068,
+  "memory_barrier_fit_r2": 0.9918095568772234,
+  "llm_overhead": {
+    "model": "deepseek-chat",
+    "resolved_models": "deepseek-v4-flash",
+    "semantic_logical_calls": 200,
+    "semantic_real_api_calls": 200,
+    "game_logical_calls": 543,
+    "game_real_api_calls": 462,
+    "game_cache_hits": 81,
+    "total_real_api_calls": 662,
+    "total_tokens": 255008,
+    "mean_latency_ms": 1309.166940326206,
+    "p95_latency_ms": 1866.459545513498,
+    "game_numeric_mismatches_corrected": 1,
+    "api_key_saved": false,
+    "deployment_claim": "measured API latency; no microsecond/millisecond claim unless observed"
+  },
+  "section_3_outputs": {
+    "baselines": "algorithm_comparison.csv",
+    "convergence_and_stability": "convergence_trace.csv",
+    "pareto_and_system_total_cost": "pareto_front.csv and algorithm_comparison.csv",
+    "memory_violation_rate_n_30_to_200": "memory_violation_sweep.csv",
+    "llm_orchestration_overhead": "llm_coordination_overhead.csv and llm_feedback_events.csv"
+  },
+  "claim_boundary": "PSNE and proxy-metric results for this finite simulation; not global optimum, physical OOM proof, statistical general law, or deployment validation."
+}

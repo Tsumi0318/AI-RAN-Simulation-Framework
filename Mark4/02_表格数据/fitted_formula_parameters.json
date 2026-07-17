@@ -1,0 +1,61 @@
+{
+  "queue": {
+    "formula": "D_comp(K)=1/(mu-lambda*K)",
+    "mu_per_second": 4.693514462987063,
+    "lambda_per_task_per_second": 0.00029811036910452497,
+    "rho_at_assumed_capacity": 0.005081230646338318,
+    "stability_limit_k": 15744.217408759101,
+    "queue_reference_p99": 1.0,
+    "equivalent_capacity_tasks_assumed": 80,
+    "matched_timestamp_points": 1002,
+    "r2_seconds": -0.011633134983892068,
+    "fit_method": "robust log-residual fit on exact timestamp matches of gateway queue size and queue delay",
+    "caveat": "Queue size is anonymized/scaled and its observed association with delay is weak; fitted mu/lambda are simulation proxies, not identified physical rates."
+  },
+  "memory": {
+    "pdf_formula": "M(K)=alpha*exp(beta*(K*v_req-Vmax))",
+    "implemented_normalized_formula": "B(V)=alpha*exp(beta*(V/Vmax-1))",
+    "alpha": 5.808042805671807,
+    "beta": 11.010905273684033,
+    "vmax_data_proxy_bytes": 39646658560.0,
+    "vmax_data_definition": "observed positive per-pod VRAM P99",
+    "r2_tail_pressure": 0.9918095568772234,
+    "pressure_cost_at_capacity_assumed": 5.0,
+    "fit_method": "exponential fit to empirical upper-tail pressure normalized at the observed P99",
+    "caveat": "Beta and the tail shape come from anonymized production VRAM fluctuations; the cost scale at capacity and the 16 GB simulator capacity are explicit assumptions."
+  },
+  "scheduler": {
+    "pipeline_update_median_ms": 8892.0,
+    "pipeline_update_p95_ms": 40895.399999999994,
+    "pure_inference_median_ms": 35049.5,
+    "pure_inference_p95_ms": 79351.4
+  },
+  "config": {
+    "seed": 20260717,
+    "n_main": 100,
+    "n_pool": 200,
+    "peak_hour": "2024-12-06 00:00:00",
+    "t_max": 1500,
+    "no_change_stop": 100,
+    "random_trials": 500,
+    "sweep_trials": 30,
+    "sweep_n_min": 30,
+    "sweep_n_max": 200,
+    "sweep_n_step": 10,
+    "vram_capacity_gb_assumed": 16.0,
+    "equivalent_capacity_tasks_assumed": 80,
+    "memory_pressure_at_capacity_cost_assumed": 5.0,
+    "edge_power_w_assumed": 10.0,
+    "local_slowdown": 1.8,
+    "local_energy_addition": 0.4,
+    "tx_base_cost": 0.15,
+    "prompt_tx_weight": 0.15,
+    "radio_energy_mj_per_kb_assumed": 0.2,
+    "request_metadata_kb_assumed": 1.0,
+    "utf8_bytes_per_char_assumed": 2.0,
+    "deepseek_model": "deepseek-chat",
+    "llm_timeout_seconds": 90.0,
+    "llm_retries": 3,
+    "semantic_api_workers": 4
+  }
+}
