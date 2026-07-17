@@ -1,0 +1,2 @@
+model,resolved_models,semantic_logical_calls,semantic_real_api_calls,game_logical_calls,game_real_api_calls,game_cache_hits,total_real_api_calls,total_tokens,mean_latency_ms,p95_latency_ms,game_numeric_mismatches_corrected,api_key_saved,deployment_claim
+deepseek-chat,deepseek-v4-flash,200,200,543,462,81,662,255008,1309.166940326206,1866.459545513498,1,False,measured API latency; no microsecond/millisecond claim unless observed
